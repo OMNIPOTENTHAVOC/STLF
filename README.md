@@ -2,6 +2,19 @@
 
 This repository contains an end-to-end pipeline for Short-Term Load Forecasting (STLF) using advanced deep learning techniques, combined with an Automated Distribution Management System (ADMS)-based optimization module. It is designed to forecast regional electrical load and optimize load shedding/restoration decisions to maintain grid balance.
 
+Key features include:
+
+- Advanced Forecasting: Leveraging neural networks (CNN/LSTM/attention architecture) for high-accuracy load prediction at granular (5-minute) resolution.
+
+- Automated Grid Management: Simulates real-world utility operations by optimizing load shedding and restoration with priorities, cooldown logic, and demand/supply balancing using Integer Linear Programming (ILP).
+
+- Transparent Workflow: Every step, from raw data preprocessing to ADMS optimization, is modular, clearly documented, and fully reproducible via provided Jupyter notebooks and open dataset structure.
+
+- Real & Synthetic Data Friendly: Out-of-the-box compatibility with both real and simulated generation/demand traces, supporting rapid prototyping and operational benchmarking.
+
+- Visualization & Logging: Generates intuitive visualizations and action logs for model diagnostics, operational intervention review, and reporting.
+
+
 ## Project Structure
 
 ```
